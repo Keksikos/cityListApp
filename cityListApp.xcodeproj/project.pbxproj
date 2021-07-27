@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DD840A2226A8C261008638D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD840A2126A8C261008638D4 /* AppDelegate.swift */; };
 		DD840A2426A8C261008638D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD840A2326A8C261008638D4 /* SceneDelegate.swift */; };
-		DD840A2626A8C261008638D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD840A2526A8C261008638D4 /* ViewController.swift */; };
 		DD840A2926A8C261008638D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD840A2726A8C261008638D4 /* Main.storyboard */; };
 		DD840A2B26A8C262008638D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD840A2A26A8C262008638D4 /* Assets.xcassets */; };
 		DD840A2E26A8C262008638D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD840A2C26A8C262008638D4 /* LaunchScreen.storyboard */; };
+		DDEA890A26A8C563009D5AC4 /* CityListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA890926A8C563009D5AC4 /* CityListTableViewController.swift */; };
+		DDEA890C26A8D703009D5AC4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA890B26A8D703009D5AC4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD840A1E26A8C261008638D4 /* cityListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cityListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD840A2126A8C261008638D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD840A2326A8C261008638D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD840A2526A8C261008638D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD840A2826A8C261008638D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD840A2A26A8C262008638D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD840A2D26A8C262008638D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD840A2F26A8C262008638D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEA890926A8C563009D5AC4 /* CityListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListTableViewController.swift; sourceTree = "<group>"; };
+		DDEA890B26A8D703009D5AC4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				DD840A2126A8C261008638D4 /* AppDelegate.swift */,
 				DD840A2326A8C261008638D4 /* SceneDelegate.swift */,
-				DD840A2526A8C261008638D4 /* ViewController.swift */,
+				DDEA890926A8C563009D5AC4 /* CityListTableViewController.swift */,
+				DDEA890B26A8D703009D5AC4 /* DetailViewController.swift */,
 				DD840A2726A8C261008638D4 /* Main.storyboard */,
 				DD840A2A26A8C262008638D4 /* Assets.xcassets */,
 				DD840A2C26A8C262008638D4 /* LaunchScreen.storyboard */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD840A2626A8C261008638D4 /* ViewController.swift in Sources */,
 				DD840A2226A8C261008638D4 /* AppDelegate.swift in Sources */,
+				DDEA890A26A8C563009D5AC4 /* CityListTableViewController.swift in Sources */,
 				DD840A2426A8C261008638D4 /* SceneDelegate.swift in Sources */,
+				DDEA890C26A8D703009D5AC4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
